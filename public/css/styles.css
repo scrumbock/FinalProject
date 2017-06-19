@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: aliceblue; }
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.gallery-container div {
+  margin: 10px auto;
+  height: 300px;
+  min-width: 300px;
+  border: 2px solid #0f1e38;
+  background-size: 100%; }
+
+.one {
+  background-image: url("/images/baby-elephant.JPG"); }
+
+.two {
+  background-image: url("/images/beach-wheat.JPG"); }
+
+.three {
+  background-image: url("/images/between-porches.JPG"); }
+
+.four {
+  background-image: url("/images/blue-buoy.JPG"); }
+
+.five {
+  background-image: url("/images/blue-canoe.JPG"); }
+
+.six {
+  background-image: url("/images/boat-ripple.JPG"); }
+
+.seven {
+  background-image: url("/images/carter-sail.JPG"); }
+
+.eight {
+  background-image: url("/images/carter-snow.JPG"); }
+
+.nine {
+  background-image: url("/images/down-stairs.JPG"); }
+
+.ten {
+  background-image: url("/images/fence-grass.JPG"); }
+
+.eleven {
+  background-image: url("/images/grass-boat.JPG"); }
+
+.twelve {
+  background-image: url("/images/low-water.JPG"); }
+
+ul {
+  list-style-type: none;
+  display: inline-block; }
+
+li {
+  padding: 5px;
+  margin: 10px;
+  text-align: right; }
+
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+header {
+  color: grey; }
+
+.nav-bar {
+  display: inline-block;
+  width: 100%;
+  font-size: 22px;
+  text-align: right;
+  background-color: #c9d8f2; }
+
+.main-h {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  flex-grow: 3; }
+
+.main-title {
+  width: 100%; }
+
+footer {
+  width: 100%;
+  max-height: 100px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: grey; }
+
+.main-container {
+  background-color: #43597c;
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 20px; }
+
+@media all and (max-width: 479px) {
+  .gallery-container div {
+    margin: 10px 0;
+    min-height: 300px;
+    width: 100%;
+    border: 2px solid #0f1e38;
+    background-size: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */
