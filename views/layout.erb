@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LensCape</title>
+		<link rel="stylesheet" href="/css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+		<nav class="nav-bar">
+			<ul>
+				<a class="active" href='/'><li>Home</li></a> |
+				<a href='/gallery'><li>Gallery</li></a> |
+				<a href='/about'><li>About</li></a> |
+				<a href='/contact'><li>Contact</li></a>
+			</ul>
+		</nav>
+
+		<div class="main-title">
+		<h1 class="main-h">LensCape: Cape Cod in Pictures</h1>
+	  </div>
+
+		<div class="bryan-tag">
+			<h2>Photography by Bryan Monzella</h2>
+		</div>
+	</header>
+
+	<div class="main-container"><%= yield %></div>
+
+		<footer>
+			<p>Copyright 2017 Monzella Enterprises</p>
+		</footer>
+		<script type="text/javascript" src="/js/scripts.js"></script>
+	</body>
+</html>
