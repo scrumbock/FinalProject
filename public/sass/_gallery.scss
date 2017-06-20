@@ -1,0 +1,116 @@
+// gallery page
+.gallery-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin: 30px 0;
+ width: 100%;
+ // background-color: rgba(128,128,128,0.5);
+}
+
+.gallery-container div {
+ margin: 5px auto;
+ height: 300px;
+ min-width: 300px;
+ border: 2px solid #0f1e38;
+ background-size: 100%;
+ animation-name: fadein;
+ animation-duration: 3s;
+ box-shadow: 2px 2px 12px 5px aliceblue inset;
+}
+
+@keyframes fadein {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes grow {
+  from {transform: scale(1)}
+  to {transform: scale(1.1)}
+}
+
+.gallery-container div:hover {
+  opacity: 0.6;
+  animation-name: grow;
+}
+
+.pic.one {
+ background-image: url("/images/baby-elephant.JPG");
+}
+
+.pic.two {
+ background-image: url("/images/beach-wheat.JPG");
+}
+
+.pic.three {
+ background-image: url("/images/between-porches.JPG");
+}
+
+.pic.four {
+ background-image: url("/images/blue-buoy.JPG");
+}
+.pic.five {
+ background-image: url("/images/blue-canoe.JPG");
+}
+.pic.six {
+ background-image: url("/images/boat-ripple.JPG");
+}
+.pic.seven {
+ background-image: url("/images/carter-sail.JPG");
+}
+.pic.eight {
+ background-image: url("/images/carter-snow.JPG");
+}
+
+.pic.nine {
+ background-image: url("/images/down-stairs.JPG");
+}
+
+.pic.ten {
+ background-image: url("/images/fence-grass.JPG");
+}
+
+.pic.eleven {
+ background-image: url("/images/grass-boat.JPG");
+}
+.pic.twelve {
+ background-image: url("/images/low-water.JPG");
+}
+
+
+.photo-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}

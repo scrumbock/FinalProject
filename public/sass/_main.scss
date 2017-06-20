@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #01273d;
+
+}
+
+footer {
+	width: 100%;
+	max-height: 100px;
+	text-align: center;
+	margin-bottom: 0px;
+	color: white;
+}
+
+.main-container {
+
+}
+//
+// .main-container {
+//   position: relative;
+// 	width: 100%;
+// 	height: auto;
+// 	color: white;
+// }
+
+@media all and (max-width: 479px) {
+  .gallery-container div {
+  	margin: 10px 0;
+  	min-height: 300px;
+  	width: 100%;
+  	border: 2px solid #0f1e38;
+  	background-size: 100%;
+  }
+}

@@ -45,3 +45,7 @@ end
 get '/gallery' do
 	erb :gallery
 end
+
+get '/contact' do
+  erb :contact
+end
