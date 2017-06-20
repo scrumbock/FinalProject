@@ -7,13 +7,12 @@
 
 .gallery-container div {
   margin: 5px auto;
-  height: 300px;
-  min-width: 300px;
+  height: 30vw;
+  width: 30vw;
   border: 2px solid #0f1e38;
   background-size: 100%;
   animation-name: fadein;
-  animation-duration: 3s;
-  box-shadow: 2px 2px 12px 5px aliceblue inset; }
+  animation-duration: 3s; }
 
 @keyframes fadein {
   from {
@@ -118,6 +117,49 @@ footer {
     width: 100%;
     border: 2px solid #0f1e38;
     background-size: 100%; } }
+.email-box {
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  font-family: 'Raleway', sans-serif; }
+
+.email-form {
+  padding: 15px;
+  margin: 20px; }
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 2vw; }
+
+.textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 2vw; }
+
+input[type=submit] {
+  width: 50%;
+  background-color: #c9d8f2;
+  color: #002033;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px; }
+
 .nav-bar {
   background-image: url("/images/tight-rope.JPG");
   background-size: 100%;
@@ -131,10 +173,10 @@ footer {
   height: 100vw; }
 
 .blur-circle {
-  padding: 2em;
-  margin: 30% auto;
+  padding: 1vw;
+  margin: 12% auto;
   position: relative;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 32, 51, 0.7);
   width: 41vw;
   height: 41vw;
   border-radius: 50%;
@@ -146,7 +188,7 @@ footer {
 .blur-circle li {
   font-size: 4.2vw;
   display: block;
-  line-height: 66px;
+  line-height: 7vw;
   text-align: center;
   margin-top: 1.5vw; }
 

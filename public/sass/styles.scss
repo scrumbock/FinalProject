@@ -1,5 +1,6 @@
 @import 'gallery';
 @import 'main';
+@import 'contact';
 
 .nav-bar {
   background-image: url("/images/tight-rope.JPG");
@@ -17,10 +18,11 @@
 
 // layout stylings
 .blur-circle {
-  padding: 2em;
-	margin: 30% auto;
+  padding: 1vw;
+	margin: 12% auto;
 	position: relative;
-	background: rgba(0,0,0,0.7);
+  background: rgba(0,32,51,0.7);
+	// background: rgba(0,0,0,0.7); dark/black optional color
 	width: 41vw;
 	height: 41vw;
   border-radius: 50%;
@@ -34,7 +36,8 @@
 .blur-circle li {
 	font-size: 4.2vw;
 	display: block;
-	line-height: 66px;
+	// line-height: 66px;
+  line-height: 7vw;
   text-align: center;
   margin-top: 1.5vw;
 }

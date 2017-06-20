@@ -10,13 +10,13 @@
 
 .gallery-container div {
  margin: 5px auto;
- height: 300px;
- min-width: 300px;
+ height: 30vw;
+ width: 30vw;
  border: 2px solid #0f1e38;
  background-size: 100%;
  animation-name: fadein;
  animation-duration: 3s;
- box-shadow: 2px 2px 12px 5px aliceblue inset;
+ // box-shadow: 2px 2px 12px 5px aliceblue inset;
 }
 
 @keyframes fadein {
