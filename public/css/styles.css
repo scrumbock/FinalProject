@@ -6,13 +6,12 @@
   width: 100%; }
 
 .gallery-container div {
-  margin: 5px auto;
+  margin: 1vw;
   height: 30vw;
   width: 30vw;
   border: 2px solid #0f1e38;
   background-size: 100%;
-  animation-name: fadein;
-  animation-duration: 3s; }
+  animation: fadein 3s forwards; }
 
 @keyframes fadein {
   from {
@@ -80,7 +79,19 @@
   margin: auto;
   display: block;
   width: 80%;
+  height: 500px;
+  background-size: 100%;
   max-width: 700px; }
+
+.caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px; }
 
 .close-modal {
   position: absolute;
