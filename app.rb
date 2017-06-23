@@ -20,7 +20,7 @@ post '/contact' do
 
 
 	from = Email.new(email: @name)
-	to = Email.new(email: 'scrumboc@yahoo.com')
+	to = Email.new(email: 'bryanmonzella@gmail.com')
 	subject = @subject
 	content = Content.new(type: 'text/plain', value: @text)
 	mail = Mail.new(from, subject, to, content)
