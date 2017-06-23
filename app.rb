@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'sinatra'
 require 'sendgrid-ruby'
 include SendGrid
 
@@ -49,3 +48,5 @@ end
 get '/contact' do
   erb :contact
 end
+
+run Sinatra::Application.run!
