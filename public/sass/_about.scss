@@ -1,0 +1,18 @@
+.about-blurb {
+padding: 20px;
+font-family: 'Raleway', sans-serif;
+font-size: 22px;
+color: white;
+letter-spacing: 1px;
+}
+
+.photo-box {
+	background-image: url("/images/BryanAboutPage.JPG");
+	background-repeat: no-repeat;
+  background-position: center;
+	height: 30vw;
+	width: 40vw;
+	border: 2px solid grey;
+	background-size: cover;
+  margin: 5vw 10vw 5vw 30vw;
+}

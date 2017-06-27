@@ -4,7 +4,6 @@
 
 body {
   background-color: #01273d;
-
 }
 
 footer {
@@ -25,6 +24,94 @@ footer {
 // 	height: auto;
 // 	color: white;
 // }
+
+
+.nav-bar {
+  background-image: url("/images/tight-rope.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 3vw;
+  padding: 2em;
+  height: 100vw;
+}
+
+
+// layout stylings
+.blur-circle {
+  padding: 1vw;
+	margin: 12% auto;
+	position: relative;
+  background: rgba(0,32,51,0.7);
+	// background: rgba(0,0,0,0.7); dark/black optional color
+	width: 41vw;
+	height: 41vw;
+  border-radius: 50%;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.blur-circle:hover {
+	background: rgba(0,0,0,0.2);
+}
+
+.blur-circle li {
+	font-size: 4.2vw;
+	display: block;
+	// line-height: 66px;
+  line-height: 7vw;
+  text-align: center;
+  margin-top: 1.5vw;
+}
+
+ .blur-circle  a {
+ white-space: nowrap;
+ color: transparent;
+ display: block;
+ text-align: center;
+ text-transform: uppercase;
+ text-shadow: 0px 0px 3px #fff;
+ letter-spacing: 1px;
+ transform: scale(0.8);
+ transition: all 0.4s linear;
+ text-decoration: none;
+ }
+
+ .blur-circle:hover  a{
+	text-shadow: 0px 0px 10px #fff;
+  text-decoration: none;
+}
+
+.blur-circle  a:hover {
+	text-shadow: none;
+	color: #fff;
+	transform: scale(1);
+}
+
+header {
+	color: white;
+}
+
+.main-h {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4vw;
+  letter-spacing: 18px;
+
+}
+
+.main-title {
+	width: 100%;
+  text-shadow: 1px 1px grey;
+  text-transform: uppercase;
+}
+
+// .bryan-tag {
+//   font-family: 'Raleway', sans-serif;
+// 	font-size: 2vw;
+// }
+
 
 @media all and (max-width: 479px) {
   .gallery-container div {
