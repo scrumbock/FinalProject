@@ -21,5 +21,5 @@ span.onclick = function() {
 function openModal(x) {
   modal.style.display = "block";
   modalOne.style.backgroundImage = "url('" + imgArray[x] + "')";
-  caption.innerHTML = this.alt;
+  // caption.innerHTML = this.alt;
 }
